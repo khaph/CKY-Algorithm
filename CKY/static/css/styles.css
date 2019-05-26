@@ -1,0 +1,49 @@
+body {
+    padding: 10vh 25vw;
+    background-color: #010101;
+}
+
+.main-panel {
+    padding: 5px 30px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.submit-button {
+    margin: 10px 14px;
+    width: calc(100% - 28px);
+}
+
+textarea {
+    resize: vertical;
+}
+
+#myTable {
+    margin: 14px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: calc(100% - 28px);
+    background-color: #343A40;
+    border-radius: 10px;
+    
+    color: #F9F9FA;
+}
+
+#myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 30px;
+    text-align: center;
+}
+
+#myTable t:hover {
+    background-color: #ddd;
+}
+
+#myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

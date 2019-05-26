@@ -1,0 +1,41 @@
+con nai vàng ngơ_ngác đạp trên lá vàng khô
+S -> NP VP
+NP -> NP ADJP
+NP -> UN NP
+NP -> NN ADJP
+VP -> VB PP
+PP -> IN NP
+UN -> con
+NN -> nai
+ADJP -> vàng
+ADJP -> ngơ_ngác
+VB -> đạp
+IN -> trên
+NN -> lá
+ADJP -> khô
+
+tôi xin người cứ gian_dối
+S -> NP VP
+NP -> tôi
+NP -> người
+VP -> VP VP
+VP -> VB NP
+VP -> ADVP VB
+VB -> xin
+VB -> gian_dối
+ADVP -> cứ
+
+nam mới mua một chiếc xe mới
+S -> NP VP
+NP -> CD NP
+NP -> NP ADJP
+NP -> UNN NN
+VP -> VP NP
+VP -> RB VB
+NP -> Nam
+RB -> mới
+VB -> mua
+CD -> một
+UNN -> chiếc
+NN -> xe
+ADJP -> mới

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NLP | CKY Algorithm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <script src='../static/js/functions.js'></script>
+
+</head>
+
+<body>
+    <div class="main-panel">
+        <div style="color: #000; text-align: center;font-weight: 700; font-size: 20px">
+            DEMO THUẬT TOÁN CKY
+        </div>
+        <hr/>
+        <div>
+            <div class="form-group">
+                Câu truy vấn:
+                <input class="form-control" id="sentence"></input>
+                <small class="form-text text-muted">Từ ghép được nối bằng dấu "_"</small>
+            </div>
+            <div class="form-group">
+                Các luật:
+                <textarea class="form-control" rows="5" id="rules"></textarea>
+                <small class="form-text text-muted">Mỗi luật trên một hàng, từ ghép được nối bằng dấu "_"</small>
+            </div>
+        </div>
+        <button class="btn btn-danger submit-button" onclick="execute()">Xem kết quả</button>
+
+        <table id='myTable'>
+        </table>
+
+    </div>
+</body>
+
+</html>
