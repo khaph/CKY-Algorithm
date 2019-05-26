@@ -1,7 +1,7 @@
 # CKY-Algorithm
 How to run demo?
 
-Step 1. Install the required lib from some first lines in "main.py"
+Step 1. Install the required lib from some import lines in "main.py"
 
 Step 2. Run this "main.py" with python
 
